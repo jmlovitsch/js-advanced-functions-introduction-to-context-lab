@@ -75,10 +75,7 @@ let calculatePayroll = (arrayOfEmployeeRecords) => {
 }
 
 let findEmployeeByFirstName = (srcArray, firstName) => {
-    let emp = srcArray.find(function(e) {
+     return srcArray.find(function(e) {
         return e.firstName === firstName
     })
-
-    return emp
-
 }
